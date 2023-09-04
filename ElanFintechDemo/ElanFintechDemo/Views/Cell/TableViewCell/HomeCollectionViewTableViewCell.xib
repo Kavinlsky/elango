@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="HomeCollectionViewTableViewCell" customModule="ElanFintechDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wvf-JK-guT">
+                        <rect key="frame" x="0.0" y="2" width="352" height="150"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3ee-fx-qfy">
+                                <rect key="frame" x="0.0" y="0.0" width="352" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Nab-v0-Kof">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3ee-fx-qfy" firstAttribute="leading" secondItem="Wvf-JK-guT" secondAttribute="leading" id="5cQ-sG-jw3"/>
+                            <constraint firstAttribute="height" constant="150" id="Vcj-oU-mod"/>
+                            <constraint firstItem="3ee-fx-qfy" firstAttribute="top" secondItem="Wvf-JK-guT" secondAttribute="top" id="fej-JQ-BP9"/>
+                            <constraint firstAttribute="bottom" secondItem="3ee-fx-qfy" secondAttribute="bottom" id="jid-Xr-gec"/>
+                            <constraint firstAttribute="trailing" secondItem="3ee-fx-qfy" secondAttribute="trailing" id="kfb-MK-5eo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Wvf-JK-guT" secondAttribute="bottom" constant="3" id="2iH-RS-twe"/>
+                    <constraint firstItem="Wvf-JK-guT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="Nsa-wd-6GO"/>
+                    <constraint firstAttribute="trailing" secondItem="Wvf-JK-guT" secondAttribute="trailing" id="Z5Q-C2-8PX"/>
+                    <constraint firstItem="Wvf-JK-guT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mGb-D6-qJD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gCollectionView" destination="3ee-fx-qfy" id="UbV-1w-jBX"/>
+                <outlet property="gContainerView" destination="Wvf-JK-guT" id="W9L-iG-Rhx"/>
+            </connections>
+            <point key="canvasLocation" x="114.49275362318842" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

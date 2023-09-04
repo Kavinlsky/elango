@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AACBE362AA2E84B0022B778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE352AA2E84B0022B778 /* AppDelegate.swift */; };
+		2AACBE382AA2E84B0022B778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE372AA2E84B0022B778 /* SceneDelegate.swift */; };
+		2AACBE3A2AA2E84B0022B778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE392AA2E84B0022B778 /* ViewController.swift */; };
+		2AACBE3F2AA2E84E0022B778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE3E2AA2E84E0022B778 /* Assets.xcassets */; };
+		2AACBE422AA2E84E0022B778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE402AA2E84E0022B778 /* LaunchScreen.storyboard */; };
+		2AACBE4D2AA2E84F0022B778 /* ElanFintechDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE4C2AA2E84F0022B778 /* ElanFintechDemoTests.swift */; };
+		2AACBE572AA2E84F0022B778 /* ElanFintechDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE562AA2E84F0022B778 /* ElanFintechDemoUITests.swift */; };
+		2AACBE592AA2E84F0022B778 /* ElanFintechDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE582AA2E84F0022B778 /* ElanFintechDemoUITestsLaunchTests.swift */; };
+		2AACBE6A2AA2E9450022B778 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE692AA2E9450022B778 /* HomeViewController.swift */; };
+		2AACBE6D2AA2EEC70022B778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE6C2AA2EEC70022B778 /* Main.storyboard */; };
+		2AACBE712AA309770022B778 /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE6F2AA309770022B778 /* WalletTableViewCell.swift */; };
+		2AACBE722AA309770022B778 /* WalletTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE702AA309770022B778 /* WalletTableViewCell.xib */; };
+		2AACBE752AA30D290022B778 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE742AA30D290022B778 /* Common.swift */; };
+		2AACBE782AA319AA0022B778 /* HomeCollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE762AA319AA0022B778 /* HomeCollectionViewTableViewCell.swift */; };
+		2AACBE792AA319AA0022B778 /* HomeCollectionViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE772AA319AA0022B778 /* HomeCollectionViewTableViewCell.xib */; };
+		2AACBE7D2AA31C970022B778 /* HomeSpecalityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE7B2AA31C970022B778 /* HomeSpecalityCollectionViewCell.xib */; };
+		2AACBE7E2AA31C970022B778 /* HomeSpecalityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE7C2AA31C970022B778 /* HomeSpecalityCollectionViewCell.swift */; };
+		2AACBE822AA3B3180022B778 /* SavingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE802AA3B3170022B778 /* SavingsTableViewCell.swift */; };
+		2AACBE832AA3B3180022B778 /* SavingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE812AA3B3180022B778 /* SavingsTableViewCell.xib */; };
+		2AACBE8E2AA3BA050022B778 /* MyASavingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE8C2AA3BA050022B778 /* MyASavingsCollectionViewCell.swift */; };
+		2AACBE8F2AA3BA050022B778 /* MyASavingsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE8D2AA3BA050022B778 /* MyASavingsCollectionViewCell.xib */; };
+		2AACBE912AA3CA1E0022B778 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE902AA3CA1E0022B778 /* StatisticsViewController.swift */; };
+		2AACBE992AA424F10022B778 /* ExpencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBE972AA424F10022B778 /* ExpencesTableViewCell.swift */; };
+		2AACBE9A2AA424F10022B778 /* ExpencesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AACBE982AA424F10022B778 /* ExpencesTableViewCell.xib */; };
+		2AE731A42AA44B78005703A9 /* categoriesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE731A22AA44B78005703A9 /* categoriesListTableViewCell.swift */; };
+		2AE731A52AA44B78005703A9 /* categoriesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE731A32AA44B78005703A9 /* categoriesListTableViewCell.xib */; };
+		4F74B429DCB32595B31D88C1 /* Pods_ElanFintechDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5527AE2079482E3122AD65C /* Pods_ElanFintechDemoTests.framework */; };
+		8E617DA7D0CCBDAA3D3B8AE8 /* Pods_ElanFintechDemo_ElanFintechDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCA219873B8801CCB8FAB58 /* Pods_ElanFintechDemo_ElanFintechDemoUITests.framework */; };
+		C66D543A47D8D90C87F44F57 /* Pods_ElanFintechDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826B28D0D8CB9D0473FB015A /* Pods_ElanFintechDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AACBE492AA2E84F0022B778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AACBE2A2AA2E84B0022B778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AACBE312AA2E84B0022B778;
+			remoteInfo = ElanFintechDemo;
+		};
+		2AACBE532AA2E84F0022B778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AACBE2A2AA2E84B0022B778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AACBE312AA2E84B0022B778;
+			remoteInfo = ElanFintechDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AACBE322AA2E84B0022B778 /* ElanFintechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElanFintechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AACBE352AA2E84B0022B778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AACBE372AA2E84B0022B778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AACBE392AA2E84B0022B778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AACBE3E2AA2E84E0022B778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AACBE412AA2E84E0022B778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AACBE432AA2E84E0022B778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AACBE482AA2E84F0022B778 /* ElanFintechDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElanFintechDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AACBE4C2AA2E84F0022B778 /* ElanFintechDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElanFintechDemoTests.swift; sourceTree = "<group>"; };
+		2AACBE522AA2E84F0022B778 /* ElanFintechDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElanFintechDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AACBE562AA2E84F0022B778 /* ElanFintechDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElanFintechDemoUITests.swift; sourceTree = "<group>"; };
+		2AACBE582AA2E84F0022B778 /* ElanFintechDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElanFintechDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AACBE692AA2E9450022B778 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2AACBE6C2AA2EEC70022B778 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2AACBE6F2AA309770022B778 /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		2AACBE702AA309770022B778 /* WalletTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletTableViewCell.xib; sourceTree = "<group>"; };
+		2AACBE742AA30D290022B778 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2AACBE762AA319AA0022B778 /* HomeCollectionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		2AACBE772AA319AA0022B778 /* HomeCollectionViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionViewTableViewCell.xib; sourceTree = "<group>"; };
+		2AACBE7B2AA31C970022B778 /* HomeSpecalityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSpecalityCollectionViewCell.xib; sourceTree = "<group>"; };
+		2AACBE7C2AA31C970022B778 /* HomeSpecalityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSpecalityCollectionViewCell.swift; sourceTree = "<group>"; };
+		2AACBE802AA3B3170022B778 /* SavingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsTableViewCell.swift; sourceTree = "<group>"; };
+		2AACBE812AA3B3180022B778 /* SavingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavingsTableViewCell.xib; sourceTree = "<group>"; };
+		2AACBE8C2AA3BA050022B778 /* MyASavingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyASavingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		2AACBE8D2AA3BA050022B778 /* MyASavingsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyASavingsCollectionViewCell.xib; sourceTree = "<group>"; };
+		2AACBE902AA3CA1E0022B778 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		2AACBE972AA424F10022B778 /* ExpencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpencesTableViewCell.swift; sourceTree = "<group>"; };
+		2AACBE982AA424F10022B778 /* ExpencesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpencesTableViewCell.xib; sourceTree = "<group>"; };
+		2AE731A22AA44B78005703A9 /* categoriesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesListTableViewCell.swift; sourceTree = "<group>"; };
+		2AE731A32AA44B78005703A9 /* categoriesListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = categoriesListTableViewCell.xib; sourceTree = "<group>"; };
+		5CCA219873B8801CCB8FAB58 /* Pods_ElanFintechDemo_ElanFintechDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElanFintechDemo_ElanFintechDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DB939D3F30A7A00845A733 /* Pods-ElanFintechDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElanFintechDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ElanFintechDemoTests/Pods-ElanFintechDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68118329B90C243E63203DB9 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE3B0AEF1DE34974D80EEFD /* Pods-ElanFintechDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElanFintechDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ElanFintechDemoTests/Pods-ElanFintechDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CE6247153DBA42AE3A4BA1D /* Pods-ElanFintechDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElanFintechDemo.debug.xcconfig"; path = "Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		826B28D0D8CB9D0473FB015A /* Pods_ElanFintechDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElanFintechDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E18729DCEF00BCB99B47BF /* Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E49663CB931DB6C308449C72 /* Pods-ElanFintechDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElanFintechDemo.release.xcconfig"; path = "Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E5527AE2079482E3122AD65C /* Pods_ElanFintechDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElanFintechDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AACBE2F2AA2E84B0022B778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66D543A47D8D90C87F44F57 /* Pods_ElanFintechDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACBE452AA2E84F0022B778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F74B429DCB32595B31D88C1 /* Pods_ElanFintechDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACBE4F2AA2E84F0022B778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E617DA7D0CCBDAA3D3B8AE8 /* Pods_ElanFintechDemo_ElanFintechDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D69BFADA525A9E8D1D2E798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826B28D0D8CB9D0473FB015A /* Pods_ElanFintechDemo.framework */,
+				5CCA219873B8801CCB8FAB58 /* Pods_ElanFintechDemo_ElanFintechDemoUITests.framework */,
+				E5527AE2079482E3122AD65C /* Pods_ElanFintechDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AACBE292AA2E84B0022B778 = {
+			isa = PBXGroup;
+			children = (
+				2AACBE342AA2E84B0022B778 /* ElanFintechDemo */,
+				2AACBE4B2AA2E84F0022B778 /* ElanFintechDemoTests */,
+				2AACBE552AA2E84F0022B778 /* ElanFintechDemoUITests */,
+				2AACBE332AA2E84B0022B778 /* Products */,
+				B9762378764C2B1B12B5BF2A /* Pods */,
+				1D69BFADA525A9E8D1D2E798 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AACBE332AA2E84B0022B778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE322AA2E84B0022B778 /* ElanFintechDemo.app */,
+				2AACBE482AA2E84F0022B778 /* ElanFintechDemoTests.xctest */,
+				2AACBE522AA2E84F0022B778 /* ElanFintechDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AACBE342AA2E84B0022B778 /* ElanFintechDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE732AA30D1B0022B778 /* Model */,
+				2AACBE652AA2E8680022B778 /* Controller */,
+				2AACBE662AA2E8740022B778 /* Views */,
+				2AACBE352AA2E84B0022B778 /* AppDelegate.swift */,
+				2AACBE372AA2E84B0022B778 /* SceneDelegate.swift */,
+				2AACBE392AA2E84B0022B778 /* ViewController.swift */,
+				2AACBE3E2AA2E84E0022B778 /* Assets.xcassets */,
+				2AACBE402AA2E84E0022B778 /* LaunchScreen.storyboard */,
+				2AACBE432AA2E84E0022B778 /* Info.plist */,
+			);
+			path = ElanFintechDemo;
+			sourceTree = "<group>";
+		};
+		2AACBE4B2AA2E84F0022B778 /* ElanFintechDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE4C2AA2E84F0022B778 /* ElanFintechDemoTests.swift */,
+			);
+			path = ElanFintechDemoTests;
+			sourceTree = "<group>";
+		};
+		2AACBE552AA2E84F0022B778 /* ElanFintechDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE562AA2E84F0022B778 /* ElanFintechDemoUITests.swift */,
+				2AACBE582AA2E84F0022B778 /* ElanFintechDemoUITestsLaunchTests.swift */,
+			);
+			path = ElanFintechDemoUITests;
+			sourceTree = "<group>";
+		};
+		2AACBE652AA2E8680022B778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE692AA2E9450022B778 /* HomeViewController.swift */,
+				2AACBE902AA3CA1E0022B778 /* StatisticsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AACBE662AA2E8740022B778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE922AA3CA280022B778 /* StroyBoard */,
+				2AACBE6E2AA309540022B778 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AACBE6E2AA309540022B778 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE7F2AA3B2F40022B778 /* TableViewCell */,
+				2AACBE7A2AA31B440022B778 /* CollectionView */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2AACBE732AA30D1B0022B778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE742AA30D290022B778 /* Common.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AACBE7A2AA31B440022B778 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE8C2AA3BA050022B778 /* MyASavingsCollectionViewCell.swift */,
+				2AACBE8D2AA3BA050022B778 /* MyASavingsCollectionViewCell.xib */,
+				2AACBE7C2AA31C970022B778 /* HomeSpecalityCollectionViewCell.swift */,
+				2AACBE7B2AA31C970022B778 /* HomeSpecalityCollectionViewCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		2AACBE7F2AA3B2F40022B778 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE762AA319AA0022B778 /* HomeCollectionViewTableViewCell.swift */,
+				2AACBE772AA319AA0022B778 /* HomeCollectionViewTableViewCell.xib */,
+				2AACBE6F2AA309770022B778 /* WalletTableViewCell.swift */,
+				2AACBE702AA309770022B778 /* WalletTableViewCell.xib */,
+				2AACBE802AA3B3170022B778 /* SavingsTableViewCell.swift */,
+				2AACBE812AA3B3180022B778 /* SavingsTableViewCell.xib */,
+				2AACBE972AA424F10022B778 /* ExpencesTableViewCell.swift */,
+				2AACBE982AA424F10022B778 /* ExpencesTableViewCell.xib */,
+				2AE731A22AA44B78005703A9 /* categoriesListTableViewCell.swift */,
+				2AE731A32AA44B78005703A9 /* categoriesListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		2AACBE922AA3CA280022B778 /* StroyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2AACBE6C2AA2EEC70022B778 /* Main.storyboard */,
+			);
+			path = StroyBoard;
+			sourceTree = "<group>";
+		};
+		B9762378764C2B1B12B5BF2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6247153DBA42AE3A4BA1D /* Pods-ElanFintechDemo.debug.xcconfig */,
+				E49663CB931DB6C308449C72 /* Pods-ElanFintechDemo.release.xcconfig */,
+				68118329B90C243E63203DB9 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig */,
+				E3E18729DCEF00BCB99B47BF /* Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig */,
+				60DB939D3F30A7A00845A733 /* Pods-ElanFintechDemoTests.debug.xcconfig */,
+				7BE3B0AEF1DE34974D80EEFD /* Pods-ElanFintechDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AACBE312AA2E84B0022B778 /* ElanFintechDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AACBE5C2AA2E84F0022B778 /* Build configuration list for PBXNativeTarget "ElanFintechDemo" */;
+			buildPhases = (
+				65A884EAB2ED7AE4D6DA3972 /* [CP] Check Pods Manifest.lock */,
+				2AACBE2E2AA2E84B0022B778 /* Sources */,
+				2AACBE2F2AA2E84B0022B778 /* Frameworks */,
+				2AACBE302AA2E84B0022B778 /* Resources */,
+				73C2D63C7007065D37ED412D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElanFintechDemo;
+			productName = ElanFintechDemo;
+			productReference = 2AACBE322AA2E84B0022B778 /* ElanFintechDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AACBE472AA2E84F0022B778 /* ElanFintechDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AACBE5F2AA2E84F0022B778 /* Build configuration list for PBXNativeTarget "ElanFintechDemoTests" */;
+			buildPhases = (
+				2424A6FA106FF8E61FF7E71E /* [CP] Check Pods Manifest.lock */,
+				2AACBE442AA2E84F0022B778 /* Sources */,
+				2AACBE452AA2E84F0022B778 /* Frameworks */,
+				2AACBE462AA2E84F0022B778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AACBE4A2AA2E84F0022B778 /* PBXTargetDependency */,
+			);
+			name = ElanFintechDemoTests;
+			productName = ElanFintechDemoTests;
+			productReference = 2AACBE482AA2E84F0022B778 /* ElanFintechDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AACBE512AA2E84F0022B778 /* ElanFintechDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AACBE622AA2E84F0022B778 /* Build configuration list for PBXNativeTarget "ElanFintechDemoUITests" */;
+			buildPhases = (
+				3FBEA7C4A1FE7836C756DE95 /* [CP] Check Pods Manifest.lock */,
+				2AACBE4E2AA2E84F0022B778 /* Sources */,
+				2AACBE4F2AA2E84F0022B778 /* Frameworks */,
+				2AACBE502AA2E84F0022B778 /* Resources */,
+				D8E69574C6EA8E8600043FB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AACBE542AA2E84F0022B778 /* PBXTargetDependency */,
+			);
+			name = ElanFintechDemoUITests;
+			productName = ElanFintechDemoUITests;
+			productReference = 2AACBE522AA2E84F0022B778 /* ElanFintechDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AACBE2A2AA2E84B0022B778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2AACBE312AA2E84B0022B778 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2AACBE472AA2E84F0022B778 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2AACBE312AA2E84B0022B778;
+					};
+					2AACBE512AA2E84F0022B778 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2AACBE312AA2E84B0022B778;
+					};
+				};
+			};
+			buildConfigurationList = 2AACBE2D2AA2E84B0022B778 /* Build configuration list for PBXProject "ElanFintechDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AACBE292AA2E84B0022B778;
+			productRefGroup = 2AACBE332AA2E84B0022B778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AACBE312AA2E84B0022B778 /* ElanFintechDemo */,
+				2AACBE472AA2E84F0022B778 /* ElanFintechDemoTests */,
+				2AACBE512AA2E84F0022B778 /* ElanFintechDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AACBE302AA2E84B0022B778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AACBE8F2AA3BA050022B778 /* MyASavingsCollectionViewCell.xib in Resources */,
+				2AE731A52AA44B78005703A9 /* categoriesListTableViewCell.xib in Resources */,
+				2AACBE422AA2E84E0022B778 /* LaunchScreen.storyboard in Resources */,
+				2AACBE9A2AA424F10022B778 /* ExpencesTableViewCell.xib in Resources */,
+				2AACBE832AA3B3180022B778 /* SavingsTableViewCell.xib in Resources */,
+				2AACBE3F2AA2E84E0022B778 /* Assets.xcassets in Resources */,
+				2AACBE7D2AA31C970022B778 /* HomeSpecalityCollectionViewCell.xib in Resources */,
+				2AACBE722AA309770022B778 /* WalletTableViewCell.xib in Resources */,
+				2AACBE792AA319AA0022B778 /* HomeCollectionViewTableViewCell.xib in Resources */,
+				2AACBE6D2AA2EEC70022B778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACBE462AA2E84F0022B778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACBE502AA2E84F0022B778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2424A6FA106FF8E61FF7E71E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElanFintechDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FBEA7C4A1FE7836C756DE95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElanFintechDemo-ElanFintechDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A884EAB2ED7AE4D6DA3972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElanFintechDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C2D63C7007065D37ED412D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E69574C6EA8E8600043FB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AACBE2E2AA2E84B0022B778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AACBE8E2AA3BA050022B778 /* MyASavingsCollectionViewCell.swift in Sources */,
+				2AACBE3A2AA2E84B0022B778 /* ViewController.swift in Sources */,
+				2AACBE362AA2E84B0022B778 /* AppDelegate.swift in Sources */,
+				2AACBE822AA3B3180022B778 /* SavingsTableViewCell.swift in Sources */,
+				2AACBE992AA424F10022B778 /* ExpencesTableViewCell.swift in Sources */,
+				2AACBE782AA319AA0022B778 /* HomeCollectionViewTableViewCell.swift in Sources */,
+				2AACBE912AA3CA1E0022B778 /* StatisticsViewController.swift in Sources */,
+				2AACBE382AA2E84B0022B778 /* SceneDelegate.swift in Sources */,
+				2AACBE6A2AA2E9450022B778 /* HomeViewController.swift in Sources */,
+				2AACBE752AA30D290022B778 /* Common.swift in Sources */,
+				2AE731A42AA44B78005703A9 /* categoriesListTableViewCell.swift in Sources */,
+				2AACBE7E2AA31C970022B778 /* HomeSpecalityCollectionViewCell.swift in Sources */,
+				2AACBE712AA309770022B778 /* WalletTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACBE442AA2E84F0022B778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AACBE4D2AA2E84F0022B778 /* ElanFintechDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACBE4E2AA2E84F0022B778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AACBE572AA2E84F0022B778 /* ElanFintechDemoUITests.swift in Sources */,
+				2AACBE592AA2E84F0022B778 /* ElanFintechDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AACBE4A2AA2E84F0022B778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AACBE312AA2E84B0022B778 /* ElanFintechDemo */;
+			targetProxy = 2AACBE492AA2E84F0022B778 /* PBXContainerItemProxy */;
+		};
+		2AACBE542AA2E84F0022B778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AACBE312AA2E84B0022B778 /* ElanFintechDemo */;
+			targetProxy = 2AACBE532AA2E84F0022B778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AACBE402AA2E84E0022B778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AACBE412AA2E84E0022B778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AACBE5A2AA2E84F0022B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AACBE5B2AA2E84F0022B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AACBE5D2AA2E84F0022B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE6247153DBA42AE3A4BA1D /* Pods-ElanFintechDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElanFintechDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.Elan.ElanFintechDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AACBE5E2AA2E84F0022B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49663CB931DB6C308449C72 /* Pods-ElanFintechDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElanFintechDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.Elan.ElanFintechDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AACBE602AA2E84F0022B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DB939D3F30A7A00845A733 /* Pods-ElanFintechDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.Elan.ElanFintechDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElanFintechDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElanFintechDemo";
+			};
+			name = Debug;
+		};
+		2AACBE612AA2E84F0022B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE3B0AEF1DE34974D80EEFD /* Pods-ElanFintechDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.Elan.ElanFintechDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElanFintechDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElanFintechDemo";
+			};
+			name = Release;
+		};
+		2AACBE632AA2E84F0022B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68118329B90C243E63203DB9 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.Elan.ElanFintechDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElanFintechDemo;
+			};
+			name = Debug;
+		};
+		2AACBE642AA2E84F0022B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E18729DCEF00BCB99B47BF /* Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.Elan.ElanFintechDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElanFintechDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AACBE2D2AA2E84B0022B778 /* Build configuration list for PBXProject "ElanFintechDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AACBE5A2AA2E84F0022B778 /* Debug */,
+				2AACBE5B2AA2E84F0022B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AACBE5C2AA2E84F0022B778 /* Build configuration list for PBXNativeTarget "ElanFintechDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AACBE5D2AA2E84F0022B778 /* Debug */,
+				2AACBE5E2AA2E84F0022B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AACBE5F2AA2E84F0022B778 /* Build configuration list for PBXNativeTarget "ElanFintechDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AACBE602AA2E84F0022B778 /* Debug */,
+				2AACBE612AA2E84F0022B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AACBE622AA2E84F0022B778 /* Build configuration list for PBXNativeTarget "ElanFintechDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AACBE632AA2E84F0022B778 /* Debug */,
+				2AACBE642AA2E84F0022B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AACBE2A2AA2E84B0022B778 /* Project object */;
+}

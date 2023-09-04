@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047FD4C374EE21227DE940AB511BCA51 /* ChartProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E737849F7BAA583E4492BCF5169B13F /* ChartProgressBar.swift */; };
+		04F5214E7E993BFD488F0776C9B2D188 /* Pods-ElanFintechDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E63D9BF0E31CBAF86DAF92C10576AB /* Pods-ElanFintechDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F46F7098112F8B28D96EFD671AACCF /* Pods-ElanFintechDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4161C7E2C8F2D4122157BA1981EA8728 /* Pods-ElanFintechDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6D7D36874DF49016B7F7E0074A6CD6 /* BarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C637C7D9AD2BCEACEEC8A810322F908 /* BarData.swift */; };
+		3FCE5F6C4BF7FB469AC7D8DC3917322B /* ChartProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F39788F3FCED02BF02E25CD41D30A2 /* ChartProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F61A22BDD21AC3AB4037CB0E978BF73 /* ChartProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EB7D8C697888E1BBE711DF5362DAF2 /* ChartProgressBar-dummy.m */; };
+		518672D33F8381DA93D8A951BB121748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A559254E4F06BD9DC4FDDF12A77825F /* Pods-ElanFintechDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFCBD4090DA25F3E37DFEFAA8D22F16 /* Pods-ElanFintechDemoTests-dummy.m */; };
+		5FA6485DB1361925E68743A50CAB0B87 /* Pods-ElanFintechDemo-ElanFintechDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E326BB84EEB7A1CE8CEE1A76E2B1FD /* Pods-ElanFintechDemo-ElanFintechDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631C2236B4E819BBA16842B79D78CBBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A1FF16D7FF06077BCF1AB59ECD347B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A59DE63AA0CA32F05D1561CE5EDC48BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B335775CD8A606E48D66A69455ACCF3B /* ChartProgressBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DD5470C8D3F066F7A2CBEBFDE514B /* ChartProgressBarDelegate.swift */; };
+		C7339A2CE8B53B3744EFA1A1CD7240AD /* Pods-ElanFintechDemo-ElanFintechDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1A27722F8DD1F1BDAB202688FC14C /* Pods-ElanFintechDemo-ElanFintechDemoUITests-dummy.m */; };
+		D551BD9DE54B9E5F58FF18D11F7A81AD /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D80C5E9B30D14AD2EA739769ABB8E9 /* Bar.swift */; };
+		E284B7EDB8371D1C04A8AF2B2B181954 /* Pods-ElanFintechDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F88653B21ADA721AD361AE37CD2F0F /* Pods-ElanFintechDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		014DD2B0C996A748737D2A60BC1EBD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C956F83D1391452CCB4752121EDF6ED6;
+			remoteInfo = ChartProgressBar;
+		};
+		2E1C10E61F8B23A6DE6E67219365ABCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E531AF37EE2211FE1355B2556955739D;
+			remoteInfo = "Pods-ElanFintechDemo";
+		};
+		49FFA1325781CD0FFCB2FEA021A8B54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C956F83D1391452CCB4752121EDF6ED6;
+			remoteInfo = ChartProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0132F9BD0F8CE283B8C39B4BA162EAC3 /* Pods-ElanFintechDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElanFintechDemoTests.modulemap"; sourceTree = "<group>"; };
+		0D202CAE06BFC8CA20815709626BE0B5 /* Pods-ElanFintechDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElanFintechDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E737849F7BAA583E4492BCF5169B13F /* ChartProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartProgressBar.swift; path = "ChartProgressBar-ios/Classes/ChartProgressBar.swift"; sourceTree = "<group>"; };
+		22A1A27722F8DD1F1BDAB202688FC14C /* Pods-ElanFintechDemo-ElanFintechDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		29E63D9BF0E31CBAF86DAF92C10576AB /* Pods-ElanFintechDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElanFintechDemo-umbrella.h"; sourceTree = "<group>"; };
+		29F39788F3FCED02BF02E25CD41D30A2 /* ChartProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChartProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		2C637C7D9AD2BCEACEEC8A810322F908 /* BarData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarData.swift; path = "ChartProgressBar-ios/Classes/BarData.swift"; sourceTree = "<group>"; };
+		31398791D6DDDA67451789509D9DF428 /* Pods-ElanFintechDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElanFintechDemo-Info.plist"; sourceTree = "<group>"; };
+		34A55EE35C532406F89A4CAF6F4212E4 /* Pods-ElanFintechDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElanFintechDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		399F0A3506940AEAD00A2F50C3A5342A /* Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4161C7E2C8F2D4122157BA1981EA8728 /* Pods-ElanFintechDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElanFintechDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		44480781D25E5C50B549BFFE6A4A72DE /* ChartProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChartProgressBar.debug.xcconfig; sourceTree = "<group>"; };
+		46F1F3C6A52DDC2F37A1B89DB37A4B65 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests.modulemap"; sourceTree = "<group>"; };
+		4B43EEED43F7800A29B52E1209C1B49B /* Pods-ElanFintechDemo-ElanFintechDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E6D6380C182EC9E50BFCFDF7678236C /* Pods-ElanFintechDemo-ElanFintechDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		60F88653B21ADA721AD361AE37CD2F0F /* Pods-ElanFintechDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElanFintechDemo-dummy.m"; sourceTree = "<group>"; };
+		646569532C5C26260298C75823441537 /* Pods-ElanFintechDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElanFintechDemo.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77D49EC13A6C4F15DA6B38C0BA30BCC7 /* Pods-ElanFintechDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElanFintechDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		819FC01E410D1A9D8CAA1BB92C076A33 /* ChartProgressBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChartProgressBar; path = ChartProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B2BC68A9975955E34FEA3A58DADA2F /* Pods-ElanFintechDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElanFintechDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E68D56A84445383AD159A363E8C39F9 /* Pods-ElanFintechDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ElanFintechDemo"; path = Pods_ElanFintechDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C586726E20426413C9B01F2E484EE56 /* Pods-ElanFintechDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ElanFintechDemoTests"; path = Pods_ElanFintechDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D80C5E9B30D14AD2EA739769ABB8E9 /* Bar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bar.swift; path = "ChartProgressBar-ios/Classes/Bar.swift"; sourceTree = "<group>"; };
+		A58109CFC1D9756B959A054133C84817 /* ChartProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChartProgressBar-Info.plist"; sourceTree = "<group>"; };
+		B3DAFCBDA3EB80FA114A27D9AC3E3EAE /* Pods-ElanFintechDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElanFintechDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B5E326BB84EEB7A1CE8CEE1A76E2B1FD /* Pods-ElanFintechDemo-ElanFintechDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		B8B0B3048419A0036317E96F2FF9DCE8 /* Pods-ElanFintechDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElanFintechDemo-frameworks.sh"; sourceTree = "<group>"; };
+		BDD1ED61521FA202EFDF0200CB7310F2 /* Pods-ElanFintechDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElanFintechDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D20326CF69F8EF934D83EC0E5E89DD32 /* ChartProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChartProgressBar.release.xcconfig; sourceTree = "<group>"; };
+		D2ED041D2CB5EE278604532D0C9BF0E5 /* Pods-ElanFintechDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElanFintechDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5583C81AF49A97B25E243C68684E4D6 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7EB7D8C697888E1BBE711DF5362DAF2 /* ChartProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChartProgressBar-dummy.m"; sourceTree = "<group>"; };
+		DC1DD5470C8D3F066F7A2CBEBFDE514B /* ChartProgressBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartProgressBarDelegate.swift; path = "ChartProgressBar-ios/Classes/ChartProgressBarDelegate.swift"; sourceTree = "<group>"; };
+		DFF03E32FBD962CBDD25AB7A93B1D5A4 /* ChartProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChartProgressBar.modulemap; sourceTree = "<group>"; };
+		E021D03EA89D0F106E40D49F7C54152B /* Pods-ElanFintechDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElanFintechDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1E8CE980E960FB562F4BAD937534399 /* Pods-ElanFintechDemo-ElanFintechDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ElanFintechDemo-ElanFintechDemoUITests"; path = Pods_ElanFintechDemo_ElanFintechDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5861DF66305F575D9A4A2817AFA8DAE /* Pods-ElanFintechDemo-ElanFintechDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		EBFCBD4090DA25F3E37DFEFAA8D22F16 /* Pods-ElanFintechDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElanFintechDemoTests-dummy.m"; sourceTree = "<group>"; };
+		F19F474C7D69082AF171E822D21D9D95 /* ChartProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChartProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		F21CB55BA505C6ACA22DF08FCCCE9A87 /* Pods-ElanFintechDemo-ElanFintechDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElanFintechDemo-ElanFintechDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F882B443B2CAED9783AF09F408B76E15 /* Pods-ElanFintechDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElanFintechDemo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C84B5B1D874E25E4092B5424FC3CA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631C2236B4E819BBA16842B79D78CBBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87343C1A375D4890EC14400B4F3FE4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59DE63AA0CA32F05D1561CE5EDC48BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED5BB6879171E8DC07C1E25BBCAAD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1FF16D7FF06077BCF1AB59ECD347B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF0474B9C1A3E8731B3EE537074D1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518672D33F8381DA93D8A951BB121748 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		192B67088E60C973B5FE3A5890C260FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819FC01E410D1A9D8CAA1BB92C076A33 /* ChartProgressBar */,
+				8E68D56A84445383AD159A363E8C39F9 /* Pods-ElanFintechDemo */,
+				E1E8CE980E960FB562F4BAD937534399 /* Pods-ElanFintechDemo-ElanFintechDemoUITests */,
+				9C586726E20426413C9B01F2E484EE56 /* Pods-ElanFintechDemoTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300753F93A70B3F484E571BB72D8006C /* Pods-ElanFintechDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F882B443B2CAED9783AF09F408B76E15 /* Pods-ElanFintechDemo.modulemap */,
+				34A55EE35C532406F89A4CAF6F4212E4 /* Pods-ElanFintechDemo-acknowledgements.markdown */,
+				89B2BC68A9975955E34FEA3A58DADA2F /* Pods-ElanFintechDemo-acknowledgements.plist */,
+				60F88653B21ADA721AD361AE37CD2F0F /* Pods-ElanFintechDemo-dummy.m */,
+				B8B0B3048419A0036317E96F2FF9DCE8 /* Pods-ElanFintechDemo-frameworks.sh */,
+				31398791D6DDDA67451789509D9DF428 /* Pods-ElanFintechDemo-Info.plist */,
+				29E63D9BF0E31CBAF86DAF92C10576AB /* Pods-ElanFintechDemo-umbrella.h */,
+				77D49EC13A6C4F15DA6B38C0BA30BCC7 /* Pods-ElanFintechDemo.debug.xcconfig */,
+				646569532C5C26260298C75823441537 /* Pods-ElanFintechDemo.release.xcconfig */,
+			);
+			name = "Pods-ElanFintechDemo";
+			path = "Target Support Files/Pods-ElanFintechDemo";
+			sourceTree = "<group>";
+		};
+		386F2C39BFF57B9096CEBA482F9454EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				300753F93A70B3F484E571BB72D8006C /* Pods-ElanFintechDemo */,
+				7639013AB5F0A1DFAA05CD1B292EE007 /* Pods-ElanFintechDemo-ElanFintechDemoUITests */,
+				422CBE679E1E12AF746625F1FBB7D6A1 /* Pods-ElanFintechDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		422CBE679E1E12AF746625F1FBB7D6A1 /* Pods-ElanFintechDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0132F9BD0F8CE283B8C39B4BA162EAC3 /* Pods-ElanFintechDemoTests.modulemap */,
+				BDD1ED61521FA202EFDF0200CB7310F2 /* Pods-ElanFintechDemoTests-acknowledgements.markdown */,
+				E021D03EA89D0F106E40D49F7C54152B /* Pods-ElanFintechDemoTests-acknowledgements.plist */,
+				EBFCBD4090DA25F3E37DFEFAA8D22F16 /* Pods-ElanFintechDemoTests-dummy.m */,
+				B3DAFCBDA3EB80FA114A27D9AC3E3EAE /* Pods-ElanFintechDemoTests-Info.plist */,
+				4161C7E2C8F2D4122157BA1981EA8728 /* Pods-ElanFintechDemoTests-umbrella.h */,
+				D2ED041D2CB5EE278604532D0C9BF0E5 /* Pods-ElanFintechDemoTests.debug.xcconfig */,
+				0D202CAE06BFC8CA20815709626BE0B5 /* Pods-ElanFintechDemoTests.release.xcconfig */,
+			);
+			name = "Pods-ElanFintechDemoTests";
+			path = "Target Support Files/Pods-ElanFintechDemoTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7639013AB5F0A1DFAA05CD1B292EE007 /* Pods-ElanFintechDemo-ElanFintechDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F1F3C6A52DDC2F37A1B89DB37A4B65 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.modulemap */,
+				F21CB55BA505C6ACA22DF08FCCCE9A87 /* Pods-ElanFintechDemo-ElanFintechDemoUITests-acknowledgements.markdown */,
+				4B43EEED43F7800A29B52E1209C1B49B /* Pods-ElanFintechDemo-ElanFintechDemoUITests-acknowledgements.plist */,
+				22A1A27722F8DD1F1BDAB202688FC14C /* Pods-ElanFintechDemo-ElanFintechDemoUITests-dummy.m */,
+				4E6D6380C182EC9E50BFCFDF7678236C /* Pods-ElanFintechDemo-ElanFintechDemoUITests-frameworks.sh */,
+				E5861DF66305F575D9A4A2817AFA8DAE /* Pods-ElanFintechDemo-ElanFintechDemoUITests-Info.plist */,
+				B5E326BB84EEB7A1CE8CEE1A76E2B1FD /* Pods-ElanFintechDemo-ElanFintechDemoUITests-umbrella.h */,
+				399F0A3506940AEAD00A2F50C3A5342A /* Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig */,
+				D5583C81AF49A97B25E243C68684E4D6 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-ElanFintechDemo-ElanFintechDemoUITests";
+			path = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests";
+			sourceTree = "<group>";
+		};
+		88C241D39F636EB398A9F8CF4AB79D13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF03E32FBD962CBDD25AB7A93B1D5A4 /* ChartProgressBar.modulemap */,
+				D7EB7D8C697888E1BBE711DF5362DAF2 /* ChartProgressBar-dummy.m */,
+				A58109CFC1D9756B959A054133C84817 /* ChartProgressBar-Info.plist */,
+				F19F474C7D69082AF171E822D21D9D95 /* ChartProgressBar-prefix.pch */,
+				29F39788F3FCED02BF02E25CD41D30A2 /* ChartProgressBar-umbrella.h */,
+				44480781D25E5C50B549BFFE6A4A72DE /* ChartProgressBar.debug.xcconfig */,
+				D20326CF69F8EF934D83EC0E5E89DD32 /* ChartProgressBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChartProgressBar";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FF6A1B5BE424C3750D1522DE51F2CFDA /* Pods */,
+				192B67088E60C973B5FE3A5890C260FE /* Products */,
+				386F2C39BFF57B9096CEBA482F9454EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B0E0C9594F69D04AE3C2B399A1AFB0 /* ChartProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				A2D80C5E9B30D14AD2EA739769ABB8E9 /* Bar.swift */,
+				2C637C7D9AD2BCEACEEC8A810322F908 /* BarData.swift */,
+				1E737849F7BAA583E4492BCF5169B13F /* ChartProgressBar.swift */,
+				DC1DD5470C8D3F066F7A2CBEBFDE514B /* ChartProgressBarDelegate.swift */,
+				88C241D39F636EB398A9F8CF4AB79D13 /* Support Files */,
+			);
+			name = ChartProgressBar;
+			path = ChartProgressBar;
+			sourceTree = "<group>";
+		};
+		FF6A1B5BE424C3750D1522DE51F2CFDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B0E0C9594F69D04AE3C2B399A1AFB0 /* ChartProgressBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D5E416BD955C367F1B5A1F7CCC3DE19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5214E7E993BFD488F0776C9B2D188 /* Pods-ElanFintechDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54765064D640B089874538E11A8A5317 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCE5F6C4BF7FB469AC7D8DC3917322B /* ChartProgressBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A369F575F0915DB2092C86D62C0F9C81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F46F7098112F8B28D96EFD671AACCF /* Pods-ElanFintechDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662CB27CD1FB9E04DA4A6841BBEF05C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA6485DB1361925E68743A50CAB0B87 /* Pods-ElanFintechDemo-ElanFintechDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C956F83D1391452CCB4752121EDF6ED6 /* ChartProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E57D3AC901EF0C99FE094B3272C4CE /* Build configuration list for PBXNativeTarget "ChartProgressBar" */;
+			buildPhases = (
+				54765064D640B089874538E11A8A5317 /* Headers */,
+				B029BE0B29D699994D1F6E3F03F2269F /* Sources */,
+				FDF0474B9C1A3E8731B3EE537074D1D1 /* Frameworks */,
+				7D3642DF4891B41A0AD86A33140DE941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartProgressBar;
+			productName = ChartProgressBar;
+			productReference = 819FC01E410D1A9D8CAA1BB92C076A33 /* ChartProgressBar */;
+			productType = "com.apple.product-type.framework";
+		};
+		E531AF37EE2211FE1355B2556955739D /* Pods-ElanFintechDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE02CFBF4C70A6157E5EC5285F450ED /* Build configuration list for PBXNativeTarget "Pods-ElanFintechDemo" */;
+			buildPhases = (
+				3D5E416BD955C367F1B5A1F7CCC3DE19 /* Headers */,
+				72C9DB776742819BE7608EED064566E1 /* Sources */,
+				87343C1A375D4890EC14400B4F3FE4A4 /* Frameworks */,
+				8035741E51FD42D816E0738EFE98F9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A0C93CF050B23E744F77879CF0E1F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ElanFintechDemo";
+			productName = Pods_ElanFintechDemo;
+			productReference = 8E68D56A84445383AD159A363E8C39F9 /* Pods-ElanFintechDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEE276A9FF8505BAB4DD7A8DC13E71CF /* Pods-ElanFintechDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C16A623825986C2439590C54C858448 /* Build configuration list for PBXNativeTarget "Pods-ElanFintechDemoTests" */;
+			buildPhases = (
+				A369F575F0915DB2092C86D62C0F9C81 /* Headers */,
+				C6FD136E69CC43D37FB5A7F62758F1FD /* Sources */,
+				3C84B5B1D874E25E4092B5424FC3CA2E /* Frameworks */,
+				D1D2B890EFEEE832C9FBBE59779F1DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9CD0FA4E3E475F09105C1B41F895884 /* PBXTargetDependency */,
+			);
+			name = "Pods-ElanFintechDemoTests";
+			productName = Pods_ElanFintechDemoTests;
+			productReference = 9C586726E20426413C9B01F2E484EE56 /* Pods-ElanFintechDemoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF30F55F276818765E531725A94C2DFF /* Pods-ElanFintechDemo-ElanFintechDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D163BA628E3984B107C20F64B72395DC /* Build configuration list for PBXNativeTarget "Pods-ElanFintechDemo-ElanFintechDemoUITests" */;
+			buildPhases = (
+				C662CB27CD1FB9E04DA4A6841BBEF05C /* Headers */,
+				C0ECC96BD3A26B6E3C92C133971AA9CC /* Sources */,
+				9ED5BB6879171E8DC07C1E25BBCAAD04 /* Frameworks */,
+				8B99289C5DFCD6D3796EB9E15DA8090F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49F1F32905302C68D6ADE0A5E8006B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ElanFintechDemo-ElanFintechDemoUITests";
+			productName = Pods_ElanFintechDemo_ElanFintechDemoUITests;
+			productReference = E1E8CE980E960FB562F4BAD937534399 /* Pods-ElanFintechDemo-ElanFintechDemoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 192B67088E60C973B5FE3A5890C260FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C956F83D1391452CCB4752121EDF6ED6 /* ChartProgressBar */,
+				E531AF37EE2211FE1355B2556955739D /* Pods-ElanFintechDemo */,
+				FF30F55F276818765E531725A94C2DFF /* Pods-ElanFintechDemo-ElanFintechDemoUITests */,
+				EEE276A9FF8505BAB4DD7A8DC13E71CF /* Pods-ElanFintechDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D3642DF4891B41A0AD86A33140DE941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8035741E51FD42D816E0738EFE98F9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99289C5DFCD6D3796EB9E15DA8090F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D2B890EFEEE832C9FBBE59779F1DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C9DB776742819BE7608EED064566E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E284B7EDB8371D1C04A8AF2B2B181954 /* Pods-ElanFintechDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B029BE0B29D699994D1F6E3F03F2269F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D551BD9DE54B9E5F58FF18D11F7A81AD /* Bar.swift in Sources */,
+				2B6D7D36874DF49016B7F7E0074A6CD6 /* BarData.swift in Sources */,
+				047FD4C374EE21227DE940AB511BCA51 /* ChartProgressBar.swift in Sources */,
+				4F61A22BDD21AC3AB4037CB0E978BF73 /* ChartProgressBar-dummy.m in Sources */,
+				B335775CD8A606E48D66A69455ACCF3B /* ChartProgressBarDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ECC96BD3A26B6E3C92C133971AA9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7339A2CE8B53B3744EFA1A1CD7240AD /* Pods-ElanFintechDemo-ElanFintechDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FD136E69CC43D37FB5A7F62758F1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A559254E4F06BD9DC4FDDF12A77825F /* Pods-ElanFintechDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35A0C93CF050B23E744F77879CF0E1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChartProgressBar;
+			target = C956F83D1391452CCB4752121EDF6ED6 /* ChartProgressBar */;
+			targetProxy = 014DD2B0C996A748737D2A60BC1EBD8C /* PBXContainerItemProxy */;
+		};
+		B49F1F32905302C68D6ADE0A5E8006B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChartProgressBar;
+			target = C956F83D1391452CCB4752121EDF6ED6 /* ChartProgressBar */;
+			targetProxy = 49FFA1325781CD0FFCB2FEA021A8B54D /* PBXContainerItemProxy */;
+		};
+		E9CD0FA4E3E475F09105C1B41F895884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ElanFintechDemo";
+			target = E531AF37EE2211FE1355B2556955739D /* Pods-ElanFintechDemo */;
+			targetProxy = 2E1C10E61F8B23A6DE6E67219365ABCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C820A7B1FE047C3CC34E649D8A6547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D49EC13A6C4F15DA6B38C0BA30BCC7 /* Pods-ElanFintechDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BF850AFF7E1BA1315D5EB35F837AD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646569532C5C26260298C75823441537 /* Pods-ElanFintechDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElanFintechDemo/Pods-ElanFintechDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		563ABDD949CD364893639525340C474A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44480781D25E5C50B549BFFE6A4A72DE /* ChartProgressBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChartProgressBar/ChartProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChartProgressBar/ChartProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChartProgressBar/ChartProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = ChartProgressBar;
+				PRODUCT_NAME = ChartProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99E185A4E1BEF126776158FCFABD0AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D202CAE06BFC8CA20815709626BE0B5 /* Pods-ElanFintechDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElanFintechDemoTests/Pods-ElanFintechDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElanFintechDemoTests/Pods-ElanFintechDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA68C1ACA661A948A095641E734E8342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399F0A3506940AEAD00A2F50C3A5342A /* Pods-ElanFintechDemo-ElanFintechDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E16B8FADC3EEAA3AE5BEAAC0FDE353AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5583C81AF49A97B25E243C68684E4D6 /* Pods-ElanFintechDemo-ElanFintechDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElanFintechDemo-ElanFintechDemoUITests/Pods-ElanFintechDemo-ElanFintechDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1705ED097597801ADD6B01A3C1A9516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20326CF69F8EF934D83EC0E5E89DD32 /* ChartProgressBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChartProgressBar/ChartProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChartProgressBar/ChartProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChartProgressBar/ChartProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = ChartProgressBar;
+				PRODUCT_NAME = ChartProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7500D30976E6B41445777979605819F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2ED041D2CB5EE278604532D0C9BF0E5 /* Pods-ElanFintechDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElanFintechDemoTests/Pods-ElanFintechDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElanFintechDemoTests/Pods-ElanFintechDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C16A623825986C2439590C54C858448 /* Build configuration list for PBXNativeTarget "Pods-ElanFintechDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7500D30976E6B41445777979605819F /* Debug */,
+				99E185A4E1BEF126776158FCFABD0AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE02CFBF4C70A6157E5EC5285F450ED /* Build configuration list for PBXNativeTarget "Pods-ElanFintechDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C820A7B1FE047C3CC34E649D8A6547 /* Debug */,
+				1BF850AFF7E1BA1315D5EB35F837AD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D163BA628E3984B107C20F64B72395DC /* Build configuration list for PBXNativeTarget "Pods-ElanFintechDemo-ElanFintechDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA68C1ACA661A948A095641E734E8342 /* Debug */,
+				E16B8FADC3EEAA3AE5BEAAC0FDE353AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E57D3AC901EF0C99FE094B3272C4CE /* Build configuration list for PBXNativeTarget "ChartProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563ABDD949CD364893639525340C474A /* Debug */,
+				E1705ED097597801ADD6B01A3C1A9516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ElanFintechDemo {
+  umbrella header "Pods-ElanFintechDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
